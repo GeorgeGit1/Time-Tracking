@@ -1,4 +1,4 @@
-fetch('/data.json')
+fetch('data.json')
 .then((response) => {  
   if(!response.ok) return console.log('Something went wrong.');
   
