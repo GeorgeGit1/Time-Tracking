@@ -1,0 +1,355 @@
+
+
+*{
+    font-family: "Rubik", sans-serif;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #0E1323;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  
+}
+
+main{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#category1{
+    background-image: url(../images/icon-work.svg);
+    background-repeat: no-repeat;
+    background-position: 231.58px -10.91px;
+}
+
+#category2{
+    background-image: url(../images/icon-play.svg);
+    background-repeat: no-repeat;
+    background-position: 231.58px -10.91px;
+}
+
+#category3{
+    background-image: url(../images/icon-study.svg);
+    background-repeat: no-repeat;
+    background-position: 231.58px -10.91px;
+}
+
+#category4{
+    background-image: url(../images/icon-exercise.svg);
+    background-repeat: no-repeat;
+    background-position: 231.58px -10.91px;
+}
+
+
+#category5{
+    background-image: url(../images/icon-social.svg);
+    background-repeat: no-repeat;
+    background-position: 231.58px -10.91px;
+}
+
+#category6{
+    background-image: url(../images/icon-self-care.svg);
+    background-repeat: no-repeat;
+    background-position: 231.58px -10.91px;
+}
+
+
+
+
+
+                             /*Responsive Design*/
+
+
+                                     /* tablet*/
+
+
+
+
+
+@media (min-width: 768px) { 
+
+
+    main{
+        width: 768px;
+      
+
+    }
+
+    section{
+        width: 612px;
+       margin: auto;
+        
+    }
+
+
+
+    #profile-main{
+        width: 612px;
+        height: 203px;
+
+    }
+
+#avatar{
+    width: 256px;
+
+    
+}
+
+#row-1{
+    width: 100%;
+    height: 213px;
+    display: flex;
+    gap: 24px;
+}
+
+
+
+.category{
+    width: 188px;
+    height: 100%;
+    gap: 8px;
+}
+
+
+
+.content{
+    width: 188px;
+    height: 180px;
+}
+
+
+
+.head{
+    width: 145px;
+}
+
+
+.time{
+    width: 145px;
+    height: 92px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    
+
+
+}
+
+.number{
+    font-size: 56px;
+    width: 145px;
+    height: 66px;
+    text-align: start;
+    
+}
+
+.number2{
+    width: 145px;
+    height: 18px;
+    text-align: start;
+}
+
+#row-2{
+    width: 100%;
+    height: 213px;
+    display: flex;
+    gap: 24px;
+}
+
+
+
+#category1{
+    background-image: url(../images/icon-work.svg);
+    background-repeat: no-repeat;
+     background-position: 113px -10.61px;
+}
+
+#category2{
+    background-image: url(../images/icon-play.svg);
+    background-repeat: no-repeat;
+      background-position: 113px -10.61px;
+}
+
+#category3{
+    background-image: url(../images/icon-study.svg);
+    background-repeat: no-repeat;
+      background-position: 113px -10.61px;
+}
+
+#category4{
+    background-image: url(../images/icon-exercise.svg);
+    background-repeat: no-repeat;
+      background-position: 113px -10.61px;
+}
+
+
+#category5{
+    background-image: url(../images/icon-social.svg);
+    background-repeat: no-repeat;
+     background-position: 113px -10.61px;
+}
+
+#category6{
+    background-image: url(../images/icon-self-care.svg);
+    background-repeat: no-repeat;
+     background-position: 113px -10.61px;
+}
+
+}
+
+
+
+/*Desktop Sizes Style*/
+
+
+
+
+
+@media (min-width: 1200px) { 
+
+
+    main{
+        max-width: 1440px;
+        width: 1200px;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    section{
+        margin: auto;
+        width: 1116px;
+        display: grid;
+        grid-template-columns:  255px 829px ;
+        grid-template-rows: auto 244px;
+        gap: 32px;
+
+    }
+
+    #profile-main{
+        width: 255px;
+        height: 520px;
+        grid-column-start: 1;
+        grid-row-start:1 ;
+        grid-row-end:3 ;
+       
+      
+    }
+
+    #pofile{
+        width: 255px;
+        height: 520px;
+    }
+
+
+
+     #profile{
+        height: 354px ;
+       
+    }
+
+    #avatar{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        height: 74px;
+        
+    }
+
+    .info{
+        width: 138px;
+        height: 230px;
+
+      
+    }
+
+    #profile img{
+        width: 74px;
+        height: 74px;
+    }
+
+    #text{
+        width: 68px;
+        height: 106px;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: center;
+        gap: 21px;
+        margin: 32px ;
+    }
+
+
+    #text p:hover{
+        color: #ffffff;
+        transition: all;
+    }
+
+    .info .name{
+
+        width: 100%;
+        height: 94px;
+        font-size: 40px;
+    }
+
+
+        .row-1{
+        grid-column-start:2 ;
+        grid-row-start:1 ;
+        width: 829px;
+        height: 244px;
+    }
+
+        .row-2{
+        grid-column-start:2 ;
+        grid-row-start:2 ;
+         width: 829px;
+        height: 244px;
+    }
+
+    .category{
+        width: 255px;
+        height: 244px;
+        background-position: 204.73px -15px;
+    }
+
+    .content{
+        width: 100%;
+        cursor: pointer;
+  
+    }
+
+    .content:hover{
+        background-color: #33397A;
+    }
+
+    .head {
+        width: 190px;
+        height: 21px;
+        
+    }
+
+    .time{
+      
+        margin: 20px 0;
+    }
+
+    .number{
+        width: 144px;
+        height: 66px;
+    }
+
+    .number2{
+        width: 117px;
+        height: 18px;
+    }
+
+}

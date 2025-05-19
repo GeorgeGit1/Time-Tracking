@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script defer src="./main.js"></script>
+    <link rel="icon" href="./images/favicon-32x32.png" type="favicon/png" >
+    <title>Time Tracking </title>
+</head>
+<body >
+    <main class="w-[375px] h-[100vh] bg-[#0E1323] flex items-center justify-center  ">
+
+        <section class="w-[327px]  m-auto mt-[24px] flex flex-col gap-[24px] ">
+
+            <div class="menu w-full  h-[203px] bg-[#1C204B] rounded-[15px] gap-[8px] flex flex-col " id="profile-main">
+
+                <div class="profile w-full h-[133px] p-[32px] bg-[#5747EA] rounded-[15px] " id="profile">
+
+                    <div class=" w-[264px] h-[64px] flex gap-[24px]" id="avatar">
+
+                    <img src="./images/image-jeremy.png" alt="men profile image "  class="size-[64px] 
+                    rounded-full border-[#D8D8D8]  border-[3px] " >
+
+
+                    <div class=" info  w-[172px] h-[54px]  ">
+                    <p class=" report text-[15px] text-[#BBC0FF]">Report for</p>
+
+                    <p class=" name text-[24px] text-[#FFFFFF] font-light md:w-[172px] md:h-[28px]">Jeremy Robson</p>
+
+                    </div>
+
+                    
+
+
+                    </div>
+
+            
+
+                </div>
+
+             <div class="flex  w-full h-[21px]  text-[18px] justify-around my-[24px]  font-light" id="text">
+                        <p class="text-[#7078C9] cursor-pointer" id="day">Daily</p>
+
+                        <p class="text-[#ffffff] cursor-pointer" id="week">Weekly</p>
+
+                        <p class="text-[#7078C9]  cursor-pointer" id="month">Monthly</p>
+                    </div>
+
+            </div>
+
+            <div id="row-1">
+            <div class=" category w-full h-[160px] relative bg-[#FF8B64] rounded-[15px]  rounded-b-[18px]" id="category1">
+                
+
+                
+
+                <div class="content work w-full h-[122px] bg-[#1C204B] rounded-[15px] 
+                 flex gap-[8px] p-[24px]  absolute bottom-0" id="content1">
+
+                 <div class="stats w-[279px] h-[67px]">
+
+                    <div class=" head w-full h-[21px]  flex items-center justify-between" id="head1">
+
+                        <p class="w-[43px] h-[21px] text-[18px] text-[#FFFFFF]" id="title"></p>
+
+                        <img src="./images/icon-ellipsis.svg" alt="icon ellipsis" class="w-[21px] h-[5px]">
+                    </div>
+
+                    <div class="time w-full h-[38px] flex justify-between items-center"> 
+
+                        <p class=" number w-[83px] h-[38px] text-[32px] text-white font-light" id="firstcurrent"></p>
+
+                        <p class="number2 w-[125px] h-[18px] text-[15px] text-[#BBC0FF] font-light" id="firstprevious"></p>
+
+
+                    </div>
+
+                 </div>
+
+                </div>
+
+            </div>
+
+
+
+
+             <div class=" category w-full h-[160px] relative bg-[#55C2E6] rounded-[15px]  rounded-b-[18px]    " id="category2">
+                      
+
+                <div class=" content work w-full h-[122px] bg-[#1C204B] rounded-[15px] 
+                 flex gap-[8px] p-[24px]  absolute bottom-0" id="content2">
+
+                 <div class="stats w-[279px] h-[67px]">
+
+                    <div class=" head w-full h-[21px]  flex items-center justify-between" id="head2">
+
+                        <p class="w-[43px] h-[21px] text-[18px] text-[#FFFFFF]" id="title2"></p>
+
+                        <img src="./images/icon-ellipsis.svg" alt="icon ellipsis" class="w-[21px] h-[5px]">
+                    </div>
+
+                    <div class="time w-full h-[38px] flex justify-between items-center"> 
+
+                        <p class="number w-[83px] h-[38px] text-[32px] text-white font-light" id="current2"></p>
+
+                        <p class="number2 w-[125px] h-[18px] text-[15px] text-[#BBC0FF] font-light" id="previous2"></p>
+
+
+                    </div>
+
+                 </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="category w-full h-[160px] relative bg-[#FF5E7D] rounded-[15px]  rounded-b-[18px]" id="category3">
+                      
+
+                <div class="content work w-full h-[122px] bg-[#1C204B] rounded-[15px] 
+                 flex gap-[8px] p-[24px]  absolute bottom-0" id="content3">
+
+                 <div class="stats w-[279px] h-[67px]">
+
+                    <div class="head w-full h-[21px]  flex items-center justify-between" id="head3">
+
+                        <p class="w-[43px] h-[21px] text-[18px] text-[#FFFFFF]" id="title3"></p>
+
+                        <img src="./images/icon-ellipsis.svg" alt="icon ellipsis" class="w-[21px] h-[5px]">
+                    </div>
+
+                    <div class="time w-full h-[38px] flex justify-between items-center"> 
+
+                        <p class=" number w-[83px] h-[38px] text-[32px] text-white font-light" id="current3"></p>
+
+                        <p class=" number2 w-[125px] h-[18px] text-[15px] text-[#BBC0FF] font-light" id="previous3"></p>
+
+
+                    </div>
+
+                 </div>
+
+                </div>
+
+            </div>
+</div>
+
+          
+<div id="row-2">
+
+             <div class="category w-full h-[160px] relative bg-[#4BCF82] rounded-[15px]  rounded-b-[18px]"  id="category4" >
+                      
+
+                <div class=" content work w-full h-[122px] bg-[#1C204B] rounded-[15px] 
+                 flex gap-[8px] p-[24px]  absolute bottom-0">
+
+                 <div class="stats w-[279px] h-[67px]">
+
+                    <div class="head w-full h-[21px]  flex items-center justify-between">
+
+                        <p class="w-[43px] h-[21px] text-[18px] text-[#FFFFFF]" id="title4"></p>
+
+                        <img src="./images/icon-ellipsis.svg" alt="icon ellipsis" class="w-[21px] h-[5px]">
+                    </div>
+
+                    <div class="time w-full h-[38px] flex justify-between items-center"> 
+
+                        <p class="number w-[83px] h-[38px] text-[32px] text-white font-light" id="current4"></p>
+
+                        <p class=" number2 w-[125px] h-[18px] text-[15px] text-[#BBC0FF] font-light" id="previous4"></p>
+
+
+                    </div>
+
+                 </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="category w-full h-[160px] relative bg-[#7335D2] rounded-[15px]  rounded-b-[18px]" id="category5">
+                      
+
+                <div class="content w-full h-[122px] bg-[#1C204B] rounded-[15px] 
+                 flex gap-[8px] p-[24px]  absolute bottom-0">
+
+                 <div class="stats w-[279px] h-[67px]">
+
+                    <div class="head w-full h-[21px]  flex items-center justify-between">
+
+                        <p class="w-[43px] h-[21px] text-[18px] text-[#FFFFFF]" id="title5"></p>
+
+                        <img src="./images/icon-ellipsis.svg" alt="icon ellipsis" class="w-[21px] h-[5px]">
+                    </div>
+
+                    <div class="time w-full h-[38px] flex justify-between items-center"> 
+
+                        <p class="number w-[83px] h-[38px] text-[32px] text-white font-light" id="current5"></p>
+
+                        <p class=" number2 w-[125px] h-[18px] text-[15px] text-[#BBC0FF] font-light" id="previous5"></p>
+
+
+                    </div>
+
+                 </div>
+
+                </div>
+
+            </div>
+
+
+              <div class=" category w-full h-[160px] relative bg-[#F1C75B] rounded-[15px]  rounded-b-[18px]" id="category6" >
+                      
+
+                <div class=" content w-full h-[122px] bg-[#1C204B] rounded-[15px] 
+                 flex gap-[8px] p-[24px]  absolute bottom-0">
+
+                 <div class="stats w-[279px] h-[67px]">
+
+                    <div class="w-full h-[21px]  flex items-center justify-between">
+
+                        <p class="w-[77px] h-[21px] text-[18px] text-[#FFFFFF]" id="title6"></p>
+
+                        <img src="./images/icon-ellipsis.svg" alt="icon ellipsis" class="w-[21px] h-[5px]">
+                    </div>
+
+                    <div class="time w-full h-[38px] flex justify-between items-center"> 
+
+                        <p class="number w-[83px] h-[38px] text-[32px] text-white font-light" id="current6"></p>
+
+                        <p class="number2 w-[125px] h-[18px] text-[15px] text-[#BBC0FF] font-light" id="previous6"></p>
+
+
+                    </div>
+
+                 </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+</body>
+</html>
